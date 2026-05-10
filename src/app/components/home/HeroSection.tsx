@@ -46,7 +46,7 @@ export default function HeroSection() {
             style={{ fontFamily: "var(--font-heading)" }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
           >
-            Taxi Chaignes deseert Pacy-sur-Eure 24h/24
+            Taxi Chaignes dessert Pacy-sur-Eure 24h/24
             <span className="text-gold block mt-2">TACO TAXI</span>
           </h1>
 
