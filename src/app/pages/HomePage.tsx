@@ -9,8 +9,8 @@ import InternalLinks from "../components/shared/InternalLinks";
 
 const homeFaqs = [
   {
-    q: "Qu'est-ce que TACO TAXI à Pacy-sur-Eure ?",
-    a: "TACO TAXI est un service de taxi professionnel basé à Pacy-sur-Eure (Eure, Normandie). Nous assurons tous vos déplacements locaux, médicaux, aéroport et longue distance 24h/24.",
+    q: "Qu'est-ce que TACO TAXI Chaignes dessert Pacy-sur-Eure ?",
+    a: "TACO TAXI est un service de taxi professionnel basé à Chaignes (Eure, Normandie). Nous assurons tous vos déplacements locaux, médicaux, aéroport et longue distance 24h/24.",
   },
   {
     q: "Faites-vous les transports conventionnés CPAM ?",
