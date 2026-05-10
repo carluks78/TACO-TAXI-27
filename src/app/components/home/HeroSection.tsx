@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="TACO TAXI – Taxi professionnel Pacy-sur-Eure, Vallée de l'Eure, Normandie – Gare, Aéroport, Médical, CPAM"
+          alt="TACO TAXI – Taxi professionnel dessert Pacy-sur-Eure, Vallée de l'Eure, Normandie – Gare, Aéroport, Médical, CPAM, réservation depuis Chaignes"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-dark/95 via-navy-dark/80 to-navy-dark/40" />
@@ -46,7 +46,7 @@ export default function HeroSection() {
             style={{ fontFamily: "var(--font-heading)" }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
           >
-            Taxi Pacy-sur-Eure 24h/24 - réservation depuis Chaigne (ADS)
+            Taxi Pacy-sur-Eure 24h/24 - réservation depuis Chaignes (ADS)
             <span className="text-gold block mt-2">TACO TAXI</span>
           </h1>
 
@@ -54,7 +54,7 @@ export default function HeroSection() {
             style={{ fontFamily: "var(--font-body)" }}
             className="text-white/80 text-base md:text-lg leading-relaxed mb-8 max-w-xl"
           >
-            Votre <strong>taxi à Pacy-sur-Eure</strong> disponible jour et nuit dans toute la{" "}
+            Votre <strong>taxi dessert Pacy-sur-Eure Vernon Ménilles</strong> disponible jour et nuit dans toute la{" "}
             <strong>vallée de l'Eure</strong>. Transferts <strong>gare Vernon</strong>,{" "}
             <strong>aéroport Roissy & Orly</strong>,{" "}
             <strong>taxi conventionné CPAM</strong>, transport médical assis et longue distance.
