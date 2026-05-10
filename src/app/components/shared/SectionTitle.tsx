@@ -11,7 +11,7 @@ export default function SectionTitle({ title, subtitle, centered = true }: Secti
     <div className={`mb-12 ${centered ? "text-center" : ""}`}>
       <h2
         style={{ fontFamily: "var(--font-heading)" }}
-        className="text-3xl md:text-4xl font-bold text-navy-dark mb-3"
+        className="font-bold text-navy-dark mb-3 text-[24px]"
       >
         {title}
       </h2>
