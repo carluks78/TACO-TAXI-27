@@ -19,7 +19,7 @@ export default function ServicesOverview() {
     <section className="py-20 px-4 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
-          title="Nos Services de Taxi — Pacy-sur-Eure"
+          title="Nos Services de Taxi — Chaignes"
           subtitle="Un service complet de transport professionnel disponible 24h/24 dans toute la vallée de l'Eure et au-delà"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
