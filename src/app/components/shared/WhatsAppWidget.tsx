@@ -5,10 +5,9 @@ import { motion, AnimatePresence } from "motion/react";
 
 const QUICK_MESSAGES = [
   "Réserver un taxi",
-  "Taxi Pacy-sur-Eure",
   "Taxi conventionné CPAM",
-  "Taxi gare Vernon",
-  "Taxi aéroport Roissy",
+  "Taxi gares",
+  "Taxi aéroports",
 ];
 
 type Step = "menu" | "form";
@@ -55,7 +54,7 @@ export default function WhatsAppWidget() {
     msg += `⏰ Heure départ : ${form.heure}\n`;
     msg += `👤 Personnes : ${form.personnes}\n`;
 
-    if (service === "Taxi aéroport Roissy") {
+    if (service === "Taxi aéroports") {
       msg += `✈️ Vol : ${form.vol}\n`;
       msg += `🧳 Bagages : ${form.bagages}\n`;
     }
@@ -159,7 +158,7 @@ export default function WhatsAppWidget() {
                 />
 
                 {/* AÉROPORT */}
-                {service === "Taxi aéroport Roissy" && (
+                {service === "Taxi aéroports" && (
                   <>
                     <input
                       placeholder="Numéro de vol"
