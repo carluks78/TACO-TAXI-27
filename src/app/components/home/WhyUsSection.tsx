@@ -7,7 +7,7 @@ const reasons = [
   {
     icon: Clock,
     title: "Disponible 24h/24",
-    desc: "TACO TAXI Pacy-sur-Eure est disponible jour et nuit, week-ends et jours fériés compris. Jamais de frais de réservation.",
+    desc: "TACO TAXI Chaignes dessert Pacy-sur-Eure est disponible jour et nuit, week-ends et jours fériés compris. Jamais de frais de réservation.",
   },
   {
     icon: Shield,
