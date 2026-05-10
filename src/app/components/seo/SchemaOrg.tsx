@@ -10,7 +10,7 @@ export default function SchemaOrg() {
         "@id": SITE_URL,
         name: COMPANY_FULL,
         description:
-          "Service de taxi professionnel à Pacy-sur-Eure et dans toute la vallée de l'Eure (Normandie). Taxi conventionné CPAM, transport médical, transferts gares SNCF (Vernon, Évreux, Bueil, Bréval, Mantes-la-Jolie), aéroports (Roissy CDG, Orly, Beauvais), hôpitaux Paris (Pompidou, Necker, Cochin, Gustave-Roussy) et CHU Rouen. Disponible 24h/24 7j/7.",
+          "Service de taxi professionnel à Chaignes dessert Pacy sur Eure et toute la vallée de l'Eure (Normandie). Taxi conventionné CPAM, transport médical, transferts gares SNCF (Vernon, Évreux, Bueil, Bréval, Mantes-la-Jolie), aéroports (Roissy CDG, Orly, Beauvais), hôpitaux Paris (Pompidou, Necker, Cochin, Gustave-Roussy) et CHU Rouen. Disponible 24h/24 7j/7.",
         url: SITE_URL,
         telephone: PHONE,
         email: EMAIL,
@@ -38,6 +38,7 @@ export default function SchemaOrg() {
           { "@type": "City", name: "Bueil" },
           { "@type": "City", name: "Jouy-sur-Eure" },
           { "@type": "City", name: "Gasny" },
+          { "@type": "City", name: "Chaignes" },
           { "@type": "City", name: "Rouen" },
           { "@type": "City", name: "Paris" },
           { "@type": "City", name: "Mantes-la-Jolie" },
