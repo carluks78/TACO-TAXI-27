@@ -31,7 +31,7 @@ export default function Footer() {
               style={{ fontFamily: "var(--font-heading)" }}
               className="text-navy-dark text-xl font-bold"
             >
-              Besoin d'un taxi à Pacy-sur-Eure ?
+              Besoin d'un taxi ?
             </h3>
             <p
               style={{ fontFamily: "var(--font-body)" }}
@@ -77,7 +77,7 @@ export default function Footer() {
               style={{ fontFamily: "var(--font-body)" }}
               className="text-sm leading-relaxed mb-4"
             >
-              Votre service de taxi professionnel à Pacy-sur-Eure et dans toute la vallée de l'Eure
+              Votre service de taxi professionnel à Chaignes dessert Pacy sur Eure et toute la vallée de l'Eure
               (Normandie). Transport conventionné CPAM, transferts aéroport et gare Vernon.
             </p>
             <div className="space-y-2 text-sm">
@@ -257,7 +257,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/50">
           <p style={{ fontFamily: "var(--font-body)" }}>
-            © {new Date().getFullYear()} {COMPANY_NAME} — Taxi Pacy-sur-Eure, Vallée de l'Eure,
+            © {new Date().getFullYear()} {COMPANY_NAME} — Taxi Chaignes (ADS) dessert Pacy sur Eure, Vallée de l'Eure,
             Normandie. Tous droits réservés.
           </p>
           <div className="flex items-center gap-1">
