@@ -46,7 +46,7 @@ export default function HeroSection() {
             style={{ fontFamily: "var(--font-heading)" }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
           >
-            Taxi à Pacy-sur-Eure 24h/24
+            Taxi Pacy-sur-Eure - réservation depuis chaigne 24h/24
             <span className="text-gold block mt-2">TACO TAXI</span>
           </h1>
 
