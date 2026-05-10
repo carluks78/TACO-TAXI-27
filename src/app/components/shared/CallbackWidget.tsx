@@ -1,10 +1,19 @@
 import React, { useState } from "react";
 import { Phone, X } from "lucide-react";
-import { PHONE_LINK, PHONE } from "@/lib/seoData";
 import { motion, AnimatePresence } from "motion/react";
 
 export default function CallbackWidget() {
   const [open, setOpen] = useState(false);
+
+  const handleSMS = () => {
+    const phone = "+33667962396";
+
+    const message = encodeURIComponent(
+      "Bonjour, je souhaite être rappelé par TACO TAXI 27."
+    );
+
+    window.location.href = `sms:${phone}?body=${message}`;
+  };
 
   return (
     <div className="fixed bottom-24 left-4 z-40 flex flex-col items-start">
@@ -23,33 +32,38 @@ export default function CallbackWidget() {
                   <Phone className="w-4 h-4 text-white" />
                 </div>
                 <div>
-                  <p style={{ fontFamily: "var(--font-body)" }} className="text-white font-semibold text-sm">
+                  <p className="text-white font-semibold text-sm">
                     Être rappelé
                   </p>
-                  <p style={{ fontFamily: "var(--font-body)" }} className="text-white/70 text-xs">
+                  <p className="text-white/70 text-xs">
                     Réponse en moins de 5 min
                   </p>
                 </div>
               </div>
-              <button onClick={() => setOpen(false)} className="text-white/70 hover:text-white">
+
+              <button
+                onClick={() => setOpen(false)}
+                className="text-white/70 hover:text-white"
+              >
                 <X className="w-4 h-4" />
               </button>
             </div>
 
             <div className="p-4">
-              <p style={{ fontFamily: "var(--font-body)" }} className="text-sm text-muted-foreground mb-4">
-                Appelez-nous directement pour être pris en charge immédiatement.
+              <p className="text-sm text-muted-foreground mb-4">
+                Cliquez ci-dessous pour envoyer une demande de rappel.
               </p>
-              <a
-                href={PHONE_LINK}
-                style={{ fontFamily: "var(--font-body)" }}
+
+              <button
+                onClick={handleSMS}
                 className="w-full bg-gold text-navy-dark text-sm font-bold py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gold-light transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                Appeler : {PHONE}
-              </a>
-              <p style={{ fontFamily: "var(--font-body)" }} className="text-xs text-muted-foreground mt-3 text-center">
-                Disponible 24h/24, 7j/7
+                Envoyer la demande
+              </button>
+
+              <p className="text-xs text-muted-foreground mt-3 text-center">
+                Vous serez rappelé rapidement
               </p>
             </div>
           </motion.div>
@@ -65,7 +79,7 @@ export default function CallbackWidget() {
         title="Me faire rappeler"
       >
         <Phone className="w-5 h-5" />
-        <span style={{ fontFamily: "var(--font-body)" }} className="text-sm font-medium">
+        <span className="text-sm font-medium">
           Me faire rappeler
         </span>
       </motion.button>
