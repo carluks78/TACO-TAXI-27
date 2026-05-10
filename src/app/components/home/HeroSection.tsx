@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="TACO TAXI – Taxi professionnel dessert Pacy-sur-Eure, Vallée de l'Eure, Normandie – Gare, Aéroport, Médical, CPAM, réservation depuis Chaignes"
+          alt="TACO TAXI – Taxi professionnel à Chaignes dessert Pacy-sur-Eure, Vallée de l'Eure, Normandie – Gare, Aéroport, Médical, CPAM, réservation depuis Chaignes"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-dark/95 via-navy-dark/80 to-navy-dark/40" />
@@ -46,7 +46,7 @@ export default function HeroSection() {
             style={{ fontFamily: "var(--font-heading)" }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
           >
-            Taxi Pacy-sur-Eure 24h/24 - réservation depuis Chaignes (ADS)
+            Taxi Chaignes deseert Pacy-sur-Eure 24h/24
             <span className="text-gold block mt-2">TACO TAXI</span>
           </h1>
 
