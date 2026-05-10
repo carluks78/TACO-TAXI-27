@@ -46,7 +46,7 @@ export default function HomePage() {
       <WhyUsSection />
       <ZonesBand />
       <TestimonialsSection />
-      <FAQSection faqs={homeFaqs} title="Questions fréquentes — TACO TAXI Pacy-sur-Eure" />
+      <FAQSection faqs={homeFaqs} title="Questions fréquentes — TACO TAXI Chaignes" />
       <InternalLinks
         links={[
           { to: "/taxi-pacy-sur-eure", label: "Taxi Pacy-sur-Eure" },
