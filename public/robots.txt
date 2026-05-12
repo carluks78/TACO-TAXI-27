@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://taco-taxi-27.vercel.app/sitemap.xml
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Social bots
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block AI scrapers (optional)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
