@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://taco-taxi-27.vercel.app/sitemap.xml
+Sitemap: https://www.tacotaxi27.fr/sitemap.fr
 
 # Bing
 User-agent: Bingbot
