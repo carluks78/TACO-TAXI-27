@@ -88,7 +88,7 @@ export default function PageSEO({
   "reviewCount": "6",
   "bestRating": "5",
   "worstRating": "1"
-}
+},
     ...schema,
   };
 
