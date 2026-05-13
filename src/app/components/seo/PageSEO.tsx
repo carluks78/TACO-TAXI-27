@@ -12,7 +12,7 @@ interface PageSEOProps {
   noIndex?: boolean;
 }
 
-const SITE_URL = "https://taco-taxi-27.vercel.app";
+const SITE_URL = "https://www.tacotaxi27.fr";
 const DEFAULT_OG_IMAGE = "https://images.unsplash.com/photo-1607767074006-6d108dbe66c3?w=1200&q=80";
 const PHONE = "06 67 96 23 96";
 const PHONE_E164 = "+33667962396";
@@ -81,13 +81,7 @@ export default function PageSEO({
     sameAs: [
       "https://g.page/r/CQDMv_pAsXR0EAE/review",
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      reviewCount: "127",
-      bestRating: "5",
-      worstRating: "1",
-    },
+    
     ...schema,
   };
 
