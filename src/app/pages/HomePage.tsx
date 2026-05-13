@@ -85,12 +85,12 @@ export default function HomePage() {
   return (
     <>
       <PageSEO
-        title="TACO TAXI Chaignes — Taxi Pacy-sur-Eure 24h/24 | Vallée de l'Eure, CPAM, Aéroport"
-        description="Taxi Chaignes dessert Pacy-sur-Eure (27120). TACO TAXI disponible 24h/24 7j/7. Transport médical CPAM, gare Vernon, Roissy CDG, Orly, longue distance Paris Rouen. ☎ 06 67 96 23 96."
-        keywords="taxi Chaignes, taxi Pacy-sur-Eure, TACO TAXI, taxi Eure 24h, taxi conventionné CPAM, taxi Vernon, taxi Giverny, taxi Évreux, taxi Rouen, navette Roissy CDG, taxi longue distance Normandie"
-        canonical="/"
-        ogImage="https://images.unsplash.com/photo-1607767074006-6d108dbe66c3?w=1200&q=85"
-      />
+  title="Taxi Pacy-sur-Eure 24h/24 | Taxi Conventionné CPAM | Gare Vernon | TACO TAXI"
+  description="Besoin d’un taxi à Pacy-sur-Eure ? TACO TAXI disponible 24h/24 et 7j/7 à Chaignes, Vernon, Giverny, Évreux. Transport médical conventionné CPAM, gare, aéroport Roissy CDG, Orly, longue distance. Réservation au 06 67 96 23 96."
+  keywords="taxi pacy-sur-eure, taxi pacy sur eure, taxi chaignes, taxi vernon, taxi giverny, taxi évreux, taxi conventionné cpam, taxi gare vernon, taxi aéroport roissy, taxi orly, taxi 27120, taco taxi"
+  canonical="https://tacotaxi27.fr/"
+  ogImage="https://tacotaxi27.fr/images/taco-taxi-pacy.jpg"
+/>
       <HeroSection />
 
       {/* Stats bar */}
