@@ -2,6 +2,19 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "taco-taxi-27.vercel.app"
+        }
+      ],
+      "destination": "https://www.tacotaxi27.fr/$1",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
