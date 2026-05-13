@@ -44,7 +44,7 @@ export default function HeroSection() {
           >
             <MapPin className="w-3.5 h-3.5 flex-shrink-0" style={{ color: TEAL }} />
             <span style={{ fontFamily: "var(--font-body)", color: TEAL }} className="text-xs font-semibold">
-              Taxi Chaignes (ADS) — dessert Pacy-sur-Eure &amp; Vallée de l'Eure
+              Taxi à Pacy-sur-Eure • Vernon • Giverny • Évreux
             </span>
           </div>
 
