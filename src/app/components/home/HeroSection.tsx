@@ -58,13 +58,17 @@ export default function HeroSection() {
 
           {/* H1 */}
           <h1
-            style={{ fontFamily: "var(--font-heading)" }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4"
-          >
-            Taxi Chaignes
-            <span className="block" style={{ color: TEAL }}>dessert Pacy-sur-Eure</span>
-            <span className="text-gold block mt-1 text-2xl md:text-3xl">TACO TAXI — 24h/24</span>
-          </h1>
+  style={{ fontFamily: "var(--font-heading)" }}
+  className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4"
+>
+  Taxi Pacy-sur-Eure
+  <span className="block" style={{ color: TEAL }}>
+    24h/24 • Gare Vernon • CPAM
+  </span>
+  <span className="text-gold block mt-1 text-2xl md:text-3xl">
+    TACO TAXI
+  </span>
+</h1>
 
           <p
             style={{ fontFamily: "var(--font-body)" }}
