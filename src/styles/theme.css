@@ -162,7 +162,7 @@
     white-space: nowrap;
     will-change: transform;
     -webkit-animation: marquee-scroll 8s linear infinite;
-    animation: marquee-scroll 4s linear infinite;
+    animation: marquee-scroll 8s linear infinite;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
