@@ -19,8 +19,8 @@ export default function ServicesOverview() {
     <section className="py-20 px-4 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
-          title="Nos Services de Taxi — Pacy-sur-Eure"
-          subtitle="Un service complet de transport professionnel disponible 24h/24 dans toute la vallée de l'Eure et au-delà"
+          title="Taxi à Pacy-sur-Eure 24h/24 — Gare Vernon, CPAM, Aéroport, Longue Distance"
+          subtitle="TACO TAXI dessert Pacy-sur-Eure, Vernon, Giverny, Évreux et toute la Vallée de l’Eure pour vos transports médicaux, transferts gare et navettes aéroport."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICES.map((service, i) => {
