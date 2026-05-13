@@ -160,19 +160,19 @@ export default function Navbar() {
                 Taxi Chaignes dessert Pacy-sur-Eure — Réservation 24h/24 7j/7 : {PHONE}
               </span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">✈️ Roissy CDG & Orly</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">✈️ Roissy CDG & Orly</span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">🚆 Gare Vernon · Évreux · Mantes-la-Jolie</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">🚆 Gare Vernon · Évreux · Mantes-la-Jolie</span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">🏥 Transport CPAM · Conventionné Sécu</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">🏥 Transport CPAM · Conventionné Sécu</span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">⭐ Noté 5/5 par nos clients</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">⭐ Noté 5/5 par nos clients</span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">📍 Chaignes · Pacy-sur-Eure · Ménilles · Breuilpont · Vernon · Évreux</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">📍 Chaignes · Pacy-sur-Eure · Ménilles · Breuilpont · Vernon · Évreux</span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">🚖 Longue Distance Paris · Rouen · Caen · Le Havre</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">🚖 Longue Distance Paris · Rouen · Caen · Le Havre</span>
               <span className="opacity-30 mx-1">•</span>
-              <span style={{ fontFamily: "var(--font-body)" }} className="px-8">🌿 Taxi Giverny Jardins de Monet</span>
+              <span style={{ fontFamily: "var(--font-body)" }} className="px-4">🌿 Taxi Giverny Jardins de Monet</span>
               <span className="opacity-30 mx-1">•</span>
             </span>
           ))}
