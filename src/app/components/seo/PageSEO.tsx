@@ -13,7 +13,7 @@ interface PageSEOProps {
 }
 
 const SITE_URL = "https://www.tacotaxi27.fr";
-const DEFAULT_OG_IMAGE = "https://images.unsplash.com/photo-1607767074006-6d108dbe66c3?w=1200&q=80";
+const DEFAULT_OG_IMAGE = "https://tacotaxi27.fr/images/taco-taxi-pacy.jpg";
 const PHONE = "06 67 96 23 96";
 const PHONE_E164 = "+33667962396";
 const LAT = "49.0170";
