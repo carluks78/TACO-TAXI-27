@@ -34,8 +34,7 @@ export default function PageSEO({
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "TaxiService",
-"additionalType": "LocalBusiness",
+    "@type": ["TaxiService", "LocalBusiness"],
     "@id": `${SITE_URL}/#organization`,
     name: "TACO TAXI",
     alternateName: "TACO TAXI Pacy-sur-Eure",
