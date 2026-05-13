@@ -148,14 +148,14 @@
     @apply bg-background text-foreground;
   }
 
-  /* ── Marquee scrolling animation (faster = 18s) ── */
+  /* ── Marquee scrolling animation (faster = 8s) ── */
   @keyframes marquee-scroll {
     0%   { transform: translateX(0); }
     100% { transform: translateX(-50%); }
   }
   .animate-marquee {
     display: inline-flex;
-    animation: marquee-scroll 4s linear infinite;
+    animation: marquee-scroll 8s linear infinite;
     white-space: nowrap;
   }
   .animate-marquee:hover {
