@@ -34,7 +34,8 @@ export default function PageSEO({
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": ["TaxiService", "LocalBusiness"],
+    "@type": "TaxiService",
+"additionalType": "LocalBusiness",
     "@id": `${SITE_URL}/#organization`,
     name: "TACO TAXI",
     alternateName: "TACO TAXI Pacy-sur-Eure",
@@ -81,7 +82,13 @@ export default function PageSEO({
     sameAs: [
       "https://g.page/r/CQDMv_pAsXR0EAE/review",
     ],
-    
+    "aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "5",
+  "reviewCount": "6",
+  "bestRating": "5",
+  "worstRating": "1"
+}
     ...schema,
   };
 
