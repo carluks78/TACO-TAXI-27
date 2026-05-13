@@ -155,7 +155,7 @@
   }
   .animate-marquee {
     display: inline-flex;
-    animation: marquee-scroll 18s linear infinite;
+    animation: marquee-scroll 4s linear infinite;
     white-space: nowrap;
   }
   .animate-marquee:hover {
