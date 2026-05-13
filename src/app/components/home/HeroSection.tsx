@@ -74,7 +74,7 @@ export default function HeroSection() {
             style={{ fontFamily: "var(--font-body)" }}
             className="text-white/80 text-base md:text-lg leading-relaxed mb-8 max-w-xl"
           >
-            Votre <strong>taxi Chaignes dessert Pacy-sur-Eure, Ménilles, Vernon</strong> disponible jour et nuit.{" "}
+            Votre <strong>taxi à Pacy-sur-Eure disponible 24h/24 et 7j/7 pour tous vos déplacements : gare de Vernon, aéroports Roissy CDG et Orly, transport médical conventionné CPAM, longues distances vers Paris, Rouen et toute la Normandie.{" "}
             Transferts <strong>gare Vernon</strong>,{" "}
             <strong>aéroport Roissy CDG &amp; Orly</strong>,{" "}
             <strong>taxi conventionné CPAM</strong>, transport médical et longue distance Paris · Rouen · Caen.
