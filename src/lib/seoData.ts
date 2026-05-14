@@ -10,7 +10,7 @@ export const PHONE_LINK = "tel:+33667962396";
 export const WHATSAPP_NUMBER = "33667962396";
 export const EMAIL = "tacotaxi27@gmail.com";
 export const SITE_URL = "https://www.tacotaxi27.fr";
-export const LOGO_URL = "https://www.tacotaxi27.fr/taco-taxi-pacy-sur-eure-og.png";
+export const LOGO_URL = "https://www.tacotaxi27.fr/taco-taxi-pacy-sur-eure-og.jpg";
 export const HERO_IMAGE_URL =
   "https://images.unsplash.com/photo-1775470520099-a09b7c410380?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBibGFjayUyMHNlZGFuJTIwdGF4aSUyMG5pZ2h0JTIwY2l0eXxlbnwxfHx8fDE3NzgzNjY0MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080";
 
