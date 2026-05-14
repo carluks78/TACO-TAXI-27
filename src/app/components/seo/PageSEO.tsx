@@ -13,7 +13,7 @@ interface PageSEOProps {
 }
 
 const SITE_URL = "https://www.tacotaxi27.fr";
-const DEFAULT_OG_IMAGE = "https://www.tacotaxi27.fr/taco-taxi-pacy-sur-eure-og.png";
+const DEFAULT_OG_IMAGE = "https://www.tacotaxi27.fr/taco-taxi-pacy-sur-eure-og.jpg";
 const PHONE = "06 67 96 23 96";
 const PHONE_E164 = "+33667962396";
 const LAT = "49.0170";
