@@ -30,7 +30,7 @@ export default function PageSEO({
   noIndex = false,
 }: PageSEOProps) {
   const fullTitle = title.includes("TACO TAXI") ? title : `${title} | TACO TAXI Pacy-sur-Eure`;
-  const canonicalUrl = canonical ? `${SITE_URL}${canonical}` : undefined;
+  const canonicalUrl = canonical || SITE_URL;
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -46,13 +46,12 @@ export default function PageSEO({
     image: DEFAULT_OG_IMAGE,
     logo: DEFAULT_OG_IMAGE,
     address: {
-      "@type": "PostalAddress",
-      streetAddress: "Pacy-sur-Eure",
-      addressLocality: "Pacy-sur-Eure",
-      postalCode: "27120",
-      addressRegion: "Normandie",
-      addressCountry: "FR",
-    },
+  "@type": "PostalAddress",
+  addressLocality: "Pacy-sur-Eure",
+  postalCode: "27120",
+  addressRegion: "Normandie",
+  addressCountry: "FR",
+},
     geo: {
       "@type": "GeoCoordinates",
       latitude: LAT,
